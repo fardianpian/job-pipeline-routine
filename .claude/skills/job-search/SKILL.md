@@ -23,17 +23,12 @@ Lokasi: Bali/Denpasar, Remote (Indonesia), Jakarta (remote-friendly).
 
 ## 3. Saring
 - Buang lowongan duplikat & yang sudah kedaluwarsa.
-- Bandingkan dengan report di `output/` dari run sebelumnya agar tidak mengirim ulang lowongan yang sama.
+- Cek database Notion "Job Pipeline" — jika lowongan dengan Position + Company yang sama sudah ada, lewati. Notion adalah satu-satunya sumber kebenaran untuk deduplication.
 
 ## 4. Skor
 Beri Fit Score 1-5 tiap lowongan berdasarkan kecocokan dengan profil di `CLAUDE.md`.
 
-## 5. Tulis report
-Simpan ke `output/report-YYYY-MM-DD.md` berisi:
-- Ringkasan eksekutif singkat (jumlah temuan, highlight Fit Score >= 4).
-- Tabel: Status | Posisi | Perusahaan | Lokasi | Tipe | Bidang | Tgl Posting | Fit Score | Link
-
-## 6. Kirim ke Notion
+## 5. Kirim ke Notion
 Database: **🧭 Job Pipeline** — ID `05ee16d7-ef50-484e-b7f8-fd1e150d68bc`
 
 Tambahkan setiap lowongan BARU via Notion connector dengan properti:
