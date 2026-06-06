@@ -48,10 +48,12 @@ Gabungkan semua hasil Jooble + SerpAPI, lalu:
 
 1. Buang duplikat internal (title + company sama).
 2. Buang posting lebih dari 14 hari.
-3. Untuk setiap lowongan, cek database Notion "Job Pipeline":
-   - **Tidak ada** → status = **NEW**, tambahkan ke Notion.
-   - **Sudah ada & Status masih "New" atau "Maybe"** → status = **ACTIVE**, jangan tambah duplikat, cukup catat di output tabel.
-   - **Sudah ada & Status "Applied" / "Interview" / dst** → abaikan sepenuhnya.
+3. Untuk setiap lowongan, cek database Notion "Job Pipeline" dengan urutan berikut:
+   - **Cek Link** dulu — jika URL sudah ada di Notion → duplikat pasti, skip.
+   - **Cek Position + Company** — jika kombinasi ini sudah ada → kemungkinan sama, skip.
+   - Jika keduanya tidak ditemukan → **NEW**, tambahkan ke Notion.
+   - Jika ditemukan & Status masih "New" atau "Maybe" → **ACTIVE**, cukup catat di output tabel, jangan tambah entry baru.
+   - Jika ditemukan & Status "Applied" / "Interview" / "Offer" / "Rejected" → abaikan sepenuhnya.
 4. Batasi total output maksimal **20 lowongan** — prioritaskan Fit Score tertinggi, lalu tanggal terbaru.
 
 ## 5. Skor
