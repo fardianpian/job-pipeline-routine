@@ -34,5 +34,20 @@ Simpan ke `output/report-YYYY-MM-DD.md` berisi:
 - Tabel: Status | Posisi | Perusahaan | Lokasi | Tipe | Bidang | Tgl Posting | Fit Score | Link
 
 ## 6. Kirim ke Notion
-Tambahkan setiap lowongan BARU ke database Notion "Job Pipeline" via Notion connector dengan properti:
-- Position (title), Company, Field, Type, Location, Fit Score, Status = New, Link, Source, Date Posted
+Database: **🧭 Job Pipeline** — ID `05ee16d7-ef50-484e-b7f8-fd1e150d68bc`
+
+Tambahkan setiap lowongan BARU via Notion connector dengan properti:
+- **Position** (title) — nama posisi
+- **Company** (text)
+- **Field** (select) — pilih salah satu: SEO/GEO, AI/Automation, Notion/Systems, Content Marketing, Writing/Education, Grant/Arts, Web/SMB, Teaching
+- **Type** (select) — Freelance, Part-time, Contract, atau Full-time Remote
+- **Location** (text)
+- **Fit Score** (number 1–5)
+- **Status** — set ke "New"
+- **Link** (url)
+- **Source** (select) — Indeed, Jobstreet, LinkedIn, Glints, atau Perplexity
+- **Date Posted** (date — format YYYY-MM-DD)
+- **CV Variant** (select) — tentukan berdasarkan Field:
+  - SEO/GEO → GEO/SEO
+  - AI/Automation, Notion/Systems → AI Workflow atau Notion Consultant (pilih yang lebih cocok)
+  - Field lain → GEO/SEO (default)
