@@ -2,7 +2,7 @@
 
 ## Prasyarat
 - Akun GitHub.
-- Plan Claude yang mendukung Remote routine (Max lebih dulu, lalu Pro).
+- Plan Claude berbayar: **Pro, Max, Team, atau Enterprise** (semua sudah didukung sejak April 2026). Pro mendapat 5 routine/hari, Max 15/hari.
 - Notion connector aktif di akun claude.ai.
 
 ## Langkah
