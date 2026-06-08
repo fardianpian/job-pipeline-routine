@@ -26,7 +26,7 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 | Music Arranger OR Composer OR Music Director | Indonesia |
 | Jingle Composer OR Film Scorer OR Mixing Engineer | Indonesia |
 | Music Supervisor OR Music Coordinator OR Music Editor | Indonesia |
-| Audio Engineer OR Recording Engineer | Indonesia |
+| Mixing Engineer OR Mastering Engineer OR Recording Engineer | Indonesia |
 | Sound Designer OR SFX Artist OR Foley Artist | Indonesia |
 | Audio Editor OR Game Audio OR Audio Post Production | Indonesia |
 | Guru Musik OR Instruktur Musik OR Dosen Musik | Indonesia |
@@ -72,7 +72,7 @@ Jalankan untuk setiap query:
 | Mixing Engineer Indonesia |
 | Sound Designer Indonesia |
 | SFX Indonesia |
-| Audio Engineer Indonesia |
+| Mixing Engineer Indonesia |
 | Music Supervisor Indonesia |
 | AI music trainer remote |
 | Guru musik Bali |
@@ -96,7 +96,7 @@ Response fields: `jobs_results[].title`, `company_name`, `location`, `detected_e
 ## 7. Skor
 Beri Fit Score 1–5 per lowongan berdasarkan profil di `CLAUDE.md`:
 
-**Bidang utama** (Music Arranger, Composer, Music Director, Jingle Composer, Film Scorer, Mixing Engineer, Audio Engineer, Music Supervisor):
+**Bidang utama** (Music Arranger, Composer, Music Director, Jingle Composer, Film Scorer, Mixing Engineer, Music Supervisor):
 - **5** — bidang utama + lokasi Bali, ATAU remote (Indonesia maupun luar negeri)
 - **4** — bidang utama + kota lain Indonesia tapi REMOTE
 - **2** — bidang utama tapi onsite/hybrid di luar Bali → tidak memenuhi syarat lokasi
