@@ -24,10 +24,13 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 | keywords | location |
 |---|---|
 | Music Arranger OR Composer OR Music Director | Indonesia |
+| Jingle Composer OR Film Scorer OR Mixing Engineer | Indonesia |
 | Penata Musik OR Komposer OR Pengaransir | Indonesia |
 | Music Supervisor OR Music Coordinator OR Music Editor | Indonesia |
 | Audio Engineer OR Recording Engineer | Indonesia |
 | Sound Designer OR Audio Editor OR Game Audio | Indonesia |
+| Guru Musik OR Instruktur Musik OR Dosen Musik | Indonesia |
+| AI Music Trainer OR Music Data Annotator | remote |
 | Arts Program Officer OR Cultural Programmer | Indonesia |
 | Event Manager OR Event Producer | Indonesia |
 | AI Specialist OR Prompt Engineer | Indonesia |
@@ -43,8 +46,10 @@ Jalankan untuk setiap baris:
 | search | location |
 |---|---|
 | Music Arranger OR Composer | remote |
-| Audio Engineer | remote |
+| Jingle Composer OR Film Scorer OR Mixing Engineer | remote |
 | Penata Musik OR Komposer | remote |
+| Guru Musik OR Music Teacher OR Instruktur Musik | Bali |
+| AI Music Trainer OR Music Data Annotator | remote |
 | Event Manager OR Event Coordinator | remote |
 | AI Specialist OR Prompt Engineer | remote |
 
@@ -63,9 +68,15 @@ Jalankan untuk setiap query:
 | Composer Indonesia |
 | Music Director Indonesia |
 | Penata Musik Indonesia |
+| Jingle Composer Indonesia |
+| Film Scorer Indonesia |
+| Mixing Engineer Indonesia |
 | Arranger Indonesia |
 | Audio Engineer Indonesia |
 | Music Supervisor Indonesia |
+| AI music trainer remote |
+| Guru musik Bali |
+| Music teacher Bali |
 | Seni Budaya Indonesia |
 | Event Production Bali |
 | AI Specialist Indonesia |
@@ -86,14 +97,18 @@ Response fields: `jobs_results[].title`, `company_name`, `location`, `detected_e
 ## 7. Skor
 Beri Fit Score 1–5 per lowongan berdasarkan profil di `CLAUDE.md`:
 
-**Bidang utama** (Music Arranger, Composer, Music Director, Music Supervisor, Audio Engineer):
-- **5** — bidang utama + remote/Bali/kontrak
-- **4** — bidang utama + lokasi lain di Indonesia
+**Bidang utama** (Music Arranger, Composer, Music Director, Jingle Composer, Film Scorer, Mixing Engineer, Audio Engineer, Music Supervisor):
+- **5** — bidang utama + lokasi Bali, ATAU remote (Indonesia maupun luar negeri)
+- **4** — bidang utama + kota lain Indonesia tapi REMOTE
+- **2** — bidang utama tapi onsite/hybrid di luar Bali → tidak memenuhi syarat lokasi
 
-**Bidang pendukung** (Arts, Event Production, AI, Writing):
-- **3** — relevan, cocok dengan bidang pendukung
-- **2** — marginal (event hotel/MICE/sales → skor rendah)
+**Bidang pendukung** (Education, Arts, Event Production, AI+Music, Writing):
+- **4** — Education/AI+Music remote atau di Bali
+- **3** — Arts/Event di Bali atau remote
+- **2** — event hotel/MICE/sales, atau pendukung onsite luar Bali
 - **1** — hampir tidak relevan
+
+**Catatan:** Lowongan onsite/hybrid di luar Bali → Fit Score maksimal 2, tidak masuk 20 teratas kecuali tidak ada hasil lain.
 
 ## 8. Kirim lowongan NEW ke Notion
 Database: **🧭 Job Pipeline** — ID `05ee16d7-ef50-484e-b7f8-fd1e150d68bc`
