@@ -34,7 +34,6 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 | AI Music Trainer OR Music Data Annotator | remote |
 | Arts Program Officer OR Cultural Programmer | Indonesia |
 | Event Manager OR Event Producer | Indonesia |
-| AI Specialist OR Prompt Engineer | Indonesia |
 
 Response fields yang diambil: `title`, `company`, `location`, `link`, `updated`. **Jangan ambil `snippet`.**
 
@@ -52,7 +51,6 @@ Jalankan untuk setiap baris:
 | Music Lecturer OR Dosen Musik OR Dosen Seni | remote |
 | AI Music Trainer OR Music Data Annotator | remote |
 | Event Manager OR Event Coordinator | remote |
-| AI Specialist OR Prompt Engineer | remote |
 
 Response fields: `title`, `company`, `location`, `job_type`, `apply_link`.
 
@@ -82,7 +80,6 @@ Jalankan untuk setiap query:
 | Dosen Seni Indonesia |
 | Arts program Indonesia |
 | Event Production Bali |
-| AI Specialist Indonesia |
 
 Response fields: `jobs_results[].title`, `company_name`, `location`, `detected_extensions.posted_at`, `detected_extensions.schedule_type`, `apply_link`.
 

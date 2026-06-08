@@ -4,7 +4,7 @@ File ini dibaca otomatis setiap routine berjalan. Berisi konteks profil dan atur
 
 ## Profil Fardian (Bali, Indonesia)
 - **Bidang utama:** Music Arranger, Composer, Music Director, Music Supervisor, Music Coordinator, Jingle Composer, Film Scorer, Mixing Engineer — bidang ini mendapat prioritas tertinggi.
-- **Bidang pendukung:** Education (guru/instruktur/dosen musik), Arts & Culture (program officer, curator), Event Production (bukan hotel MICE/sales), AI+Music (trainer, data annotator), Creative Writing (musik/seni).
+- **Bidang pendukung:** Education (guru/instruktur/dosen musik), Arts & Culture (program officer, curator), Event Production (bukan hotel MICE/sales), AI+Music Writer (trainer, data annotator), Creative Writing (musik/seni).
 - Latar belakang music producer. Mencari side job (freelance / part-time / kontrak) ATAU full-time remote — BUKAN posisi produser/music producer (sudah jadi pekerjaan utama).
 
 ## Aturan Global
