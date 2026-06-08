@@ -97,7 +97,7 @@ Response fields: `jobs_results[].title`, `company_name`, `location`, `detected_e
 ## 7. Skor
 Beri Fit Score 1–5 per lowongan berdasarkan profil di `CLAUDE.md`:
 
-**Bidang utama** (Music Arranger, Composer, Music Director, Jingle Composer, Film Scorer, Mixing Engineer, Music Supervisor):
+**Bidang utama** (Music Arranger, Composer, Music Director, Jingle Composer, Film Scorer, Mixing Engineer, Music Supervisor, Sound Designer, SFX Artist, Foley Artist):
 - **5** — bidang utama + lokasi Bali, ATAU remote (Indonesia maupun luar negeri)
 - **4** — bidang utama + kota lain Indonesia tapi REMOTE
 - **2** — bidang utama tapi onsite/hybrid di luar Bali → tidak memenuhi syarat lokasi
