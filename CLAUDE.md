@@ -3,9 +3,9 @@
 File ini dibaca otomatis setiap routine berjalan. Berisi konteks profil dan aturan global.
 
 ## Profil Fardian (Bali, Indonesia)
-- Inti: SEO/GEO Strategist & Content Systems; AI/Agent Workflow Designer (Claude Code + MCP); Notion Consultant / Template Creator.
-- Pendukung: content marketing ops, technical/educational writing, grant/proposal writing (seni-budaya).
-- Bilingual ID/EN. Mencari side job (freelance / part-time / kontrak) ATAU full-time remote — SELAIN produser musik.
+- Inti: Music & Sound Industry (music supervisor, music editor, music coordinator, licensing, curation); SFX & Audio (sound designer, audio editor, foley); Arts & Culture (program officer, administrator, curator); AI/Agent Workflow Designer.
+- Pendukung: creative & content writing (musik, seni, budaya), event management & production coordination, bilingual ID/EN.
+- Bali-based, latar belakang music producer. Mencari side job (freelance / part-time / kontrak) ATAU full-time remote — BUKAN posisi produser/music producer (sudah jadi pekerjaan utama).
 
 ## Aturan Global
 - JANGAN mengarang lowongan atau link. Hanya lowongan dengan URL valid & masih aktif.
