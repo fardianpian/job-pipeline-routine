@@ -3,8 +3,8 @@
 File ini dibaca otomatis setiap routine berjalan. Berisi konteks profil dan aturan global.
 
 ## Profil Fardian (Bali, Indonesia)
-- Inti: Music & Sound Industry (music supervisor, music editor, music coordinator, licensing, curation); SFX & Audio (sound designer, audio editor, foley); Arts & Culture (program officer, administrator, curator); AI/Agent Workflow Designer.
-- Pendukung: creative & content writing (musik, seni, budaya), event management & production coordination, bilingual ID/EN.
+- **Bidang utama:** Music Arranger, Composer, Music Director, Music Supervisor, Music Coordinator, Audio Engineer — bidang ini mendapat prioritas tertinggi.
+- **Bidang pendukung:** Arts & Culture (program officer, curator), Event Production (bukan hotel MICE/sales), AI Workflow, Creative Writing (musik/seni).
 - Bali-based, latar belakang music producer. Mencari side job (freelance / part-time / kontrak) ATAU full-time remote — BUKAN posisi produser/music producer (sudah jadi pekerjaan utama).
 
 ## Aturan Global

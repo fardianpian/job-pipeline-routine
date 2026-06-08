@@ -23,14 +23,15 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 
 | keywords | location |
 |---|---|
+| Music Arranger OR Composer OR Music Director | Indonesia |
+| Penata Musik OR Komposer OR Pengaransir | Indonesia |
 | Music Supervisor OR Music Coordinator OR Music Editor | Indonesia |
-| Composer OR Arranger OR Music Director | Indonesia |
-| Sound Designer OR Audio Engineer OR SFX Artist | Indonesia |
-| Arts Program Officer OR Cultural Programmer OR Arts Administrator | Indonesia |
-| Music Writer OR Arts Writer OR Cultural Writer | Indonesia |
-| Event Manager OR Event Coordinator OR Event Producer | Indonesia |
-| AI Specialist OR Prompt Engineer OR AI Workflow Designer | Indonesia |
-| Komposer OR Pengaransir OR Direktur Musik OR Koordinator Acara | Indonesia |
+| Audio Engineer OR Recording Engineer | Indonesia |
+| Sound Designer OR Audio Editor OR Game Audio | Indonesia |
+| Arts Program Officer OR Cultural Programmer | Indonesia |
+| Event Manager OR Event Producer | Indonesia |
+| AI Specialist OR Prompt Engineer | Indonesia |
+| Koordinator Acara OR Pengelola Seni | Indonesia |
 
 Response fields yang diambil: `title`, `company`, `location`, `link`, `updated`. **Jangan ambil `snippet`.**
 
@@ -41,14 +42,11 @@ Jalankan untuk setiap baris:
 
 | search | location |
 |---|---|
-| Music Supervisor OR Music Coordinator OR Composer | remote |
-| Arranger OR Music Director OR Music Editor | remote |
-| Sound Designer OR Audio Editor OR SFX Designer | remote |
-| Arts Administrator OR Cultural Program Officer | remote |
-| Music Writer OR Arts Writer | remote |
+| Music Arranger OR Composer | remote |
+| Audio Engineer | remote |
+| Penata Musik OR Komposer | remote |
 | Event Manager OR Event Coordinator | remote |
 | AI Specialist OR Prompt Engineer | remote |
-| Komposer OR Desainer Suara OR Koordinator Acara | Bali |
 
 Response fields: `title`, `company`, `location`, `job_type`, `apply_link`.
 
@@ -61,12 +59,16 @@ Jalankan untuk setiap query:
 
 | q |
 |---|
-| Music Supervisor OR Composer OR Arranger Indonesia |
-| Sound Designer OR SFX Artist OR Music Director Indonesia |
-| Arts Program Officer OR Cultural Programmer Indonesia |
-| Music Writer OR Arts Writer freelance Indonesia |
-| Event Manager OR Event Coordinator Bali |
-| AI Specialist OR Prompt Engineer Bali remote |
+| Music Arranger Indonesia |
+| Composer Indonesia |
+| Music Director Indonesia |
+| Penata Musik Indonesia |
+| Arranger Indonesia |
+| Audio Engineer Indonesia |
+| Music Supervisor Indonesia |
+| Seni Budaya Indonesia |
+| Event Production Bali |
+| AI Specialist Indonesia |
 
 Response fields: `jobs_results[].title`, `company_name`, `location`, `detected_extensions.posted_at`, `detected_extensions.schedule_type`, `apply_link`.
 
@@ -83,11 +85,15 @@ Response fields: `jobs_results[].title`, `company_name`, `location`, `detected_e
 
 ## 7. Skor
 Beri Fit Score 1–5 per lowongan berdasarkan profil di `CLAUDE.md`:
-- **5** — cocok sempurna (bidang inti + remote/Bali + tipe sesuai)
-- **4** — cocok baik (bidang inti, lokasi sedikit kompromi)
-- **3** — relevan (bidang pendukung atau lokasi kurang ideal)
-- **2** — marginal
-- **1** — hampir tidak relevan, tapi masih layak dicatat
+
+**Bidang utama** (Music Arranger, Composer, Music Director, Music Supervisor, Audio Engineer):
+- **5** — bidang utama + remote/Bali/kontrak
+- **4** — bidang utama + lokasi lain di Indonesia
+
+**Bidang pendukung** (Arts, Event Production, AI, Writing):
+- **3** — relevan, cocok dengan bidang pendukung
+- **2** — marginal (event hotel/MICE/sales → skor rendah)
+- **1** — hampir tidak relevan
 
 ## 8. Kirim lowongan NEW ke Notion
 Database: **🧭 Job Pipeline** — ID `05ee16d7-ef50-484e-b7f8-fd1e150d68bc`
