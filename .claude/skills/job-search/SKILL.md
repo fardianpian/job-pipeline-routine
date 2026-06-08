@@ -30,6 +30,7 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 | Sound Designer OR SFX Artist OR Foley Artist | Indonesia |
 | Audio Editor OR Game Audio OR Audio Post Production | Indonesia |
 | Guru Musik OR Instruktur Musik OR Dosen Musik | Indonesia |
+| Music Lecturer OR Dosen Seni OR Dosen Komposisi | Indonesia |
 | AI Music Trainer OR Music Data Annotator | remote |
 | Arts Program Officer OR Cultural Programmer | Indonesia |
 | Event Manager OR Event Producer | Indonesia |
@@ -48,6 +49,7 @@ Jalankan untuk setiap baris:
 | Jingle Composer OR Film Scorer OR Mixing Engineer | remote |
 | Sound Designer OR SFX Artist OR Foley Artist | remote |
 | Guru Musik OR Music Teacher OR Instruktur Musik | Bali |
+| Music Lecturer OR Dosen Musik OR Dosen Seni | remote |
 | AI Music Trainer OR Music Data Annotator | remote |
 | Event Manager OR Event Coordinator | remote |
 | AI Specialist OR Prompt Engineer | remote |
@@ -76,6 +78,8 @@ Jalankan untuk setiap query:
 | Music Supervisor Indonesia |
 | AI music trainer remote |
 | Guru musik Bali |
+| Music Lecturer Indonesia |
+| Dosen Seni Indonesia |
 | Arts program Indonesia |
 | Event Production Bali |
 | AI Specialist Indonesia |
