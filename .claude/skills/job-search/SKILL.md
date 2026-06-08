@@ -25,7 +25,6 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 |---|---|
 | Music Arranger OR Composer OR Music Director | Indonesia |
 | Jingle Composer OR Film Scorer OR Mixing Engineer | Indonesia |
-| Penata Musik OR Komposer OR Pengaransir | Indonesia |
 | Music Supervisor OR Music Coordinator OR Music Editor | Indonesia |
 | Audio Engineer OR Recording Engineer | Indonesia |
 | Sound Designer OR Audio Editor OR Game Audio | Indonesia |
@@ -34,7 +33,6 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 | Arts Program Officer OR Cultural Programmer | Indonesia |
 | Event Manager OR Event Producer | Indonesia |
 | AI Specialist OR Prompt Engineer | Indonesia |
-| Koordinator Acara OR Pengelola Seni | Indonesia |
 
 Response fields yang diambil: `title`, `company`, `location`, `link`, `updated`. **Jangan ambil `snippet`.**
 
@@ -47,7 +45,6 @@ Jalankan untuk setiap baris:
 |---|---|
 | Music Arranger OR Composer | remote |
 | Jingle Composer OR Film Scorer OR Mixing Engineer | remote |
-| Penata Musik OR Komposer | remote |
 | Guru Musik OR Music Teacher OR Instruktur Musik | Bali |
 | AI Music Trainer OR Music Data Annotator | remote |
 | Event Manager OR Event Coordinator | remote |
@@ -71,13 +68,11 @@ Jalankan untuk setiap query:
 | Jingle Composer Indonesia |
 | Film Scorer Indonesia |
 | Mixing Engineer Indonesia |
-| Arranger Indonesia |
 | Audio Engineer Indonesia |
 | Music Supervisor Indonesia |
 | AI music trainer remote |
 | Guru musik Bali |
-| Music teacher Bali |
-| Seni Budaya Indonesia |
+| Arts program Indonesia |
 | Event Production Bali |
 | AI Specialist Indonesia |
 
@@ -116,7 +111,7 @@ Database: **🧭 Job Pipeline** — ID `05ee16d7-ef50-484e-b7f8-fd1e150d68bc`
 Hanya tambahkan entry berstatus **NEW**. Properti:
 - **Position** (title)
 - **Company** (text)
-- **Field** (select) — Music/Sound, SFX/Audio, Arts/Culture, Writing/Content, Event Management, AI/Automation, Other
+- **Field** (select) — Music/Sound, SFX/Audio, Arts/Culture, Writing/Content, Event Management, AI/Automation, Education, Other
 - **Type** (select) — Freelance, Part-time, Contract, Full-time Remote
 - **Location** (text)
 - **Fit Score** (number 1–5)
@@ -128,6 +123,7 @@ Hanya tambahkan entry berstatus **NEW**. Properti:
   - Music/Sound → Music/Arts
   - SFX/Audio → Music/Arts
   - Arts/Culture → Music/Arts
+  - Education → Music/Arts
   - Event Management → Event/Arts
   - Writing/Content → Writing/Content
   - AI/Automation → AI Workflow

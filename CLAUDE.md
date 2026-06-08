@@ -11,5 +11,4 @@ File ini dibaca otomatis setiap routine berjalan. Berisi konteks profil dan atur
 - JANGAN mengarang lowongan atau link. Hanya lowongan dengan URL valid & masih aktif.
 - **Lokasi:** Bali/Denpasar = semua tipe diterima; luar Bali (Jakarta, kota lain) = HANYA jika posisi REMOTE sepenuhnya. Lowongan onsite/hybrid di luar Bali → Fit Score maksimal 2.
 - Setiap run: jalankan skill `job-search`, lalu kirim hasilnya ke database Notion "Job Pipeline".
-- Hindari duplikat: cek database Notion — jika lowongan dengan Position + Company yang sama sudah ada, lewati.
 - Skor setiap lowongan Fit Score 1-5 berdasarkan kecocokan dengan profil di atas.
