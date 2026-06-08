@@ -27,7 +27,8 @@ Jalankan untuk setiap baris (`ResultOnPage: 5`):
 | Jingle Composer OR Film Scorer OR Mixing Engineer | Indonesia |
 | Music Supervisor OR Music Coordinator OR Music Editor | Indonesia |
 | Audio Engineer OR Recording Engineer | Indonesia |
-| Sound Designer OR Audio Editor OR Game Audio | Indonesia |
+| Sound Designer OR SFX Artist OR Foley Artist | Indonesia |
+| Audio Editor OR Game Audio OR Audio Post Production | Indonesia |
 | Guru Musik OR Instruktur Musik OR Dosen Musik | Indonesia |
 | AI Music Trainer OR Music Data Annotator | remote |
 | Arts Program Officer OR Cultural Programmer | Indonesia |
@@ -45,6 +46,7 @@ Jalankan untuk setiap baris:
 |---|---|
 | Music Arranger OR Composer | remote |
 | Jingle Composer OR Film Scorer OR Mixing Engineer | remote |
+| Sound Designer OR SFX Artist OR Foley Artist | remote |
 | Guru Musik OR Music Teacher OR Instruktur Musik | Bali |
 | AI Music Trainer OR Music Data Annotator | remote |
 | Event Manager OR Event Coordinator | remote |
@@ -68,6 +70,8 @@ Jalankan untuk setiap query:
 | Jingle Composer Indonesia |
 | Film Scorer Indonesia |
 | Mixing Engineer Indonesia |
+| Sound Designer Indonesia |
+| SFX Indonesia |
 | Audio Engineer Indonesia |
 | Music Supervisor Indonesia |
 | AI music trainer remote |
