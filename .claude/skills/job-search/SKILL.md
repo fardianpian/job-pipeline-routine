@@ -124,6 +124,7 @@ Hanya tambahkan entry berstatus **NEW**. Properti:
 - **Link** (url) — `apply_link` (SerpAPI/Indeed) atau `link` (Jooble)
 - **Source** (select) — "Jooble", "Google Jobs", atau "Indeed"
 - **Date Posted** (date YYYY-MM-DD, kosongkan jika tidak ada)
+- **Run Date** (date YYYY-MM-DD) — isi dengan tanggal hari ini saat routine berjalan
 - **CV Variant** (select):
   - Music/Sound → Music/Arts
   - SFX/Audio → Music/Arts
